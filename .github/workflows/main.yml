@@ -1,9 +1,9 @@
-#this is my test workflow
 name: workflow1
 on: push
 
 jobs:
   build:
     runs-on: Ubuntu-latest
-      steps:
-        run: echo code pushed        
+    steps:
+      -  run: echo code pushed
+        
