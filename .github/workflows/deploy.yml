@@ -5,6 +5,7 @@ on: push
 jobs:
   job1:
     runs-on: ubuntu-latest
+    environment: prod
     steps:
       - name: step1
         run: |
