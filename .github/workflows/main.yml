@@ -19,6 +19,6 @@ jobs:
     steps:
       - name: step1 for copying the git
         uses: actions/checkout@v4.1.1
-        name: step2
+      - name: step2
         run: echo "Hello again from NGP after setp2"
         
